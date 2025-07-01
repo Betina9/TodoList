@@ -14,6 +14,14 @@
         <input id="task-input" name="task-input" type="text" />
         <input type="submit" />
       </form>
+      <label for="show-completed">Vis fullført</label>
+      <input type="checkbox" id="show-completed" />
+      <select name="sort-by" id="sort-by">
+        <option value="time-desc">Nyeste først</option>
+        <option value="time-desc">Eldste først</option>
+        <option value="time-desc">A til Å</option>
+        <option value="time-desc">Å til A</option>
+      </select>
     </header>
     <main id="list-container"></main>
   </body>
